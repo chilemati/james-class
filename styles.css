@@ -1,0 +1,65 @@
+.james{
+    color: purple;
+    background-color: bisque;
+    border: 3px dashed navy;
+    font-size: 3vw;
+}
+
+body{
+    background-color: brown;
+    color: white;
+    font-size: calc(15% + 3vh);
+}
+
+/* backgroud imgages styles */
+.img{
+    background-image: url('../img/ape-police-transformed.png');
+    width: 100%;
+    height: 90vh;
+    border: 4px solid pink;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center 50%;
+}
+
+ .video video{
+    width: 200px;
+    height: 200px;
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for tablets */
+@media(max-width: 800px) {
+    body{
+        background-color: darkolivegreen;
+        color: brown;
+        /* font-size: 3.8vw; */
+    }
+}
+
+
+
+/* css for andriod phones */
+@media(max-width: 400px) {
+    body{
+        background-color: black;
+        color: purple;
+        /* font-size: 5vw; */
+    }
+
+}
